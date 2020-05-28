@@ -1,0 +1,53 @@
+html{
+    background: url(assets/Netflix\ homepage.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.netflix{
+    color: red;
+    font-size: 60px;
+}
+
+.header_button{
+    color: red;
+}
+
+.flex-wrapper{
+    display: block;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    margin-top: -30px;
+    margin-left: -80px;
+}
+
+.container_text{
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.unlimited{
+    font-size: 40px;
+}
+
+.try-it-now{
+    display: flex;
+}
+
+.try-it-now_input{
+
+}
+
+.try-it-now_button{
+    background-color: red;
+}
