@@ -11,13 +11,18 @@ html{
     justify-content: space-between;
 }
 
-.netflix{
-    color: red;
-    font-size: 60px;
-}
 
-.header_button{
+/* .netflix{
     color: red;
+    font-size: 50px;
+} */
+
+.button{
+  background-color: red;
+  color: white;
+  min-width: 75%;
+  height: 45px;
+  font-size: 14pt;
 }
 
 .flex-wrapper{
@@ -73,4 +78,10 @@ html{
     min-width: 15%;
     height: 76px;
     font-size: 20pt;
+}
+
+.ready{
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: bold;
 }
