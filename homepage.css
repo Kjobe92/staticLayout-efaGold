@@ -22,32 +22,55 @@ html{
 
 .flex-wrapper{
     display: block;
-    position: fixed;
-    top: 40%;
+    /* position: absolute; */
+    text-align: center;
+    /* top: 40%;
     left: 40%;
-    margin-top: -30px;
-    margin-left: -80px;
+    margin-top: 20px;
+    margin-right: -20px;*/
 }
 
 .container_text{
     display: inline-block;
-    color: white;
+    color: whitesmoke;
     font-weight: bold;
-    font-size: 40px;
 }
 
 .unlimited{
-    font-size: 40px;
+    font-size: 70px;  
+}
+
+.shows{
+    font-size: 70px;
+}
+
+.watch{
+    font-size: 30px;
 }
 
 .try-it-now{
-    display: flex;
+    /* display: flex; */
+    size: 30px;
+    text-align: center;
+}
+
+.try-it-now{
+    /* display: flex; */
+    size: 30px;
+    text-align: center;
+    
 }
 
 .try-it-now_input{
-
+    min-width:29%;
+    height: 72px;
+    font-size:14pt;
 }
 
 .try-it-now_button{
     background-color: red;
+    color: white;
+    min-width: 15%;
+    height: 76px;
+    font-size: 20pt;
 }
